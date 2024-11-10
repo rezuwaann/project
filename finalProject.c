@@ -2221,7 +2221,7 @@ checkAgain:
         }
         else
         {
-            // Capture customer details
+        
             printf("Enter your name: ");
             scanf(" %[^\n]%*c", customerName);
             printf("Enter your address: ");
@@ -2233,7 +2233,7 @@ checkAgain:
             printf("Enter payment type (Cash, Card, etc.): ");
             scanf(" %[^\n]%*c", paymentType);
 
-            // Print detailed memo
+          
             system("clear");
             printf("\n==============================================\n");
             printf("************** PURCHASE SUMMARY **************\n");
