@@ -2260,7 +2260,7 @@ checkAgain:
     }
     else
     {
-        ..
+        
         printf("You have entered an invalid option, please try again.\n");
         goto checkAgain;
     }
